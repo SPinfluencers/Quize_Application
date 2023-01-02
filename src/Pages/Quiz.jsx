@@ -43,8 +43,8 @@ const Quiz = () => {
 
   return (
     <div>
-      <Heading fontSize="20px" padding="10px">
-        Masai QuizMe
+      <Heading fontSize="20px" padding="10px" backgroundColor='black' color='white' marginBottom='100px'>
+         QUIZE APPLICATION
       </Heading>
       <div
         style={{

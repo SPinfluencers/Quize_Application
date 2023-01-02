@@ -16,3 +16,10 @@
 6. Routing
 7. Local_Storage
 
+# Run Application on terminal
+
+- npm start
+
+# Netlify Link
+
+- https://statuesque-tarsier-f0e38e.netlify.app/

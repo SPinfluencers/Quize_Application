@@ -40,8 +40,8 @@ const Home = () => {
 
   return (
     <div>
-        <Heading fontSize="20px" padding="10px">
-        Masai QuizMe
+        <Heading fontSize="20px" padding="10px" backgroundColor='black' color='white'>
+        QUIZE APPLICATION
       </Heading>
       <div
         style={{
@@ -49,13 +49,11 @@ const Home = () => {
           justifyContent: "center",
           flexDirection:"column",
           alignItems: "center",
-          height: "100vh",
+          height: "50vh",
           boxShadow:
           "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px"
-        }}
-        
+        }} 
       >
-        
         <form
           style={{
             display: "flex",
@@ -91,7 +89,7 @@ const Home = () => {
             placeholder="Choose number of Question"
             onChange={(e) => setNoofq(e.target.value)}
           />
-          <button style={{ background: "hotpink" }} onClick={handleform}>
+          <button style={{ background: "black" , padding: '2%', color: 'white' }} onClick={handleform}>
             START QUIZ
           </button>
         </form>
